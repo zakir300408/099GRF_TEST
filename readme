@@ -1,0 +1,5 @@
+# 099_GRF
+it uses 7 nodes so make sure you have 7 nodes
+if you get sklearn module error please install pip3 install scikit-learn==0.23.2
+third_party folder has all the libraries that this app needs
+there is a virtual environment folder in the repo as well, which can be used to install more libraries
