@@ -1,0 +1,27 @@
+{ 
+  "user_guide_file": "KAM App Guide.pdf",
+  "app_name": "Zak",
+  "app_version" : "0_1",
+  "app_id": "099" ,
+  "version_id": "09901",
+  "app_description": "GRF",
+  "parameters_setting": [
+    ["Save Options",
+      {"source": "save_mode", "title": "Save Mode", "type": "combo", "validation": ["csv", "xlsx"], "description": "Save file in specified format"}],
+    ["User Info",
+      {"source": "weight", "title": "Subject Weight (Kg)", "type": "float", "validation": [0, 200], "description": "Subject Weight (Kg)"},
+      {"source": "height", "title": "Subject Height (m)", "type": "float", "validation": [0, 2.5], "description": "Subject Height (m)"}]
+  ],
+
+  "user_fields": [{"name": "time", "data_type": "float", "size":1},
+                  {"name": "plate_1_force_x", "data_type": "float", "size":1},
+                  {"name": "plate_1_force_y", "data_type": "float", "size":1},
+                  {"name": "plate_1_force_z", "data_type": "float", "size":1},
+                  {"name": "plate_2_force_x", "data_type": "float", "size":1},
+                  {"name": "plate_2_force_y", "data_type": "float", "size":1},
+                  {"name": "plate_2_force_z", "data_type": "float", "size":1}],
+
+
+  "sensors": ["L_FOOT", "R_FOOT", "R_SHANK", "R_THIGH", "WAIST", "L_SHANK", "L_THIGH"],
+  "feedback": []
+}

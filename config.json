@@ -1,0 +1,17 @@
+{
+  "height": 1.79,
+  "last_connect_feedback": [],
+  "last_connect_sensors": [
+    "88:6B:0F:4F:7E:11",
+    "88:6B:0F:4F:A0:C4",
+    "88:6B:0F:4F:A0:D3",
+    "88:6B:0F:4F:7D:90",
+    "88:6B:0F:4F:66:9D",
+    "88:6B:0F:4F:A0:77",
+    "88:6B:0F:4F:7D:F5"
+  ],
+  "local_time": "2023-04-09-02-25-38",
+  "save_mode": "csv",
+  "trial_name": "trial_42",
+  "weight": 59
+}
